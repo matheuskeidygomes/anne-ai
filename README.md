@@ -11,6 +11,8 @@ An application created to interact with an AI called Anne. Anne was created usin
 
 # Screenshots
 
+![image](https://user-images.githubusercontent.com/74063350/220494934-4ac77273-0441-4059-ad29-e16a72c814f1.png)
+![image](https://user-images.githubusercontent.com/74063350/220494957-c16afb3a-baad-4288-b5e0-d5fe38782b53.png)
 
 
 # Install Requirements
