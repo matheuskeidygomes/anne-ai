@@ -1,0 +1,39 @@
+.banner-text {
+    text-align: center;
+    font-family: "Circular-Loom";
+    color:white;
+    font-size:1.7rem;
+    width:90%;
+}
+
+.banner-header-text {
+    font-weight: bold;
+}
+
+.banner-paragraph {
+    font-weight: lighter;
+}
+
+.banner-btn {
+    border:none;
+    outline: none;
+    background-color: #007bff;
+    color:white;
+    font-size:1.5rem;
+    font-weight: bold;
+    padding:.5rem 1rem;
+    border-radius:.3rem;
+    transition: all 0.1s linear;
+}
+
+.banner-btn:hover {
+    background-color: #0069d9;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+@media only screen and (max-width:500px) {
+    .banner-text {
+        font-size: 1.3rem;
+    }
+}

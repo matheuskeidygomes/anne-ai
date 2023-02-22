@@ -1,0 +1,57 @@
+#avatar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.avatar-image {
+    border-radius: 50%;
+    z-index: 1;
+    width: 11.5rem;
+}
+
+.avatar-saying-animation {
+    position: absolute;
+    background-color: transparent;
+    width: 10rem;
+    height: 10rem;
+    border: .2rem solid white;
+    border-radius: 50%;
+    z-index: 0;
+    animation: circle-pulse 1s ease-out infinite;
+}
+
+@keyframes circle-pulse {
+    0% {
+        transform: scale(100%);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(130%);
+        opacity: 0;
+    }
+}
+
+
+@media only Screen and (max-width: 950px) {
+    .avatar-image {
+        width: 10.5rem;
+    }
+    .avatar-saying-animation {
+        width: 9.5rem;
+        height: 9.5rem;
+    }
+}
+
+
+@media only Screen and (max-width: 600px) {
+    .avatar-image {
+        width: 6rem;
+    }
+    .avatar-saying-animation {
+        width: 5.5rem;
+        height: 5.5rem;
+    }
+}

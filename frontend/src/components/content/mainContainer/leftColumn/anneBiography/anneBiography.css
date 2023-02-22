@@ -1,0 +1,24 @@
+.biography {
+    width:100%;
+    text-align: center;
+}
+
+.biography span {
+    color:white;
+    font-family: 'Circular-Loom';
+    font-size:1.7rem;
+    font-weight: lighter;
+}
+
+@media only Screen and (max-width: 1500px) {
+
+    .biography span {
+        font-size:1.3rem;
+    }
+}
+
+@media only Screen and (max-width: 500px) {
+    .biography span {
+        font-size:.9rem;
+    }
+}

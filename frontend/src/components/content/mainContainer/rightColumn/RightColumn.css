@@ -1,0 +1,17 @@
+.right-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 65%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+@media only Screen and (max-width: 950px) {
+    .right-column {
+        width: 95%;
+        flex:1;
+        height:auto;
+    }
+}

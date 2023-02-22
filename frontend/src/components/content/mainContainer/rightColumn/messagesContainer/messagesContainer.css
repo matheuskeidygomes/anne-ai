@@ -1,0 +1,95 @@
+.messages-container {
+    background-color: rgba(8, 8, 8, 0.39);
+    width: 100%;
+    flex:1;
+    overflow-y: auto;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: .3rem;
+}
+
+.user-msg-container, .anne-msg-container {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0rem;
+    min-width: 25%;
+    border-radius: .5rem;
+    padding:1rem;
+    max-width: 100%;
+}
+
+.user-msg-container {
+    align-self: flex-end;
+    background-color: #b8f4ff;
+    text-align: end;
+}
+
+.anne-msg-container {
+    align-self: flex-start;
+    background-color: #a9ccff;
+    text-align: start;   
+}
+
+.user-name, .anne-name {
+    font-size: 1rem;
+    color: rgb(85, 85, 85);
+    margin: 0rem;
+    padding: 0rem;
+    font-family: "Circular-Loom";
+    font-weight: bold;
+}
+
+.user-name {
+    color: rgb(5, 187, 233);
+}
+
+.anne-name {
+    color: rgb(27, 129, 224);
+}
+
+.anne-msg, .user-msg {
+    font-family: "Circular-Loom";
+    padding:.2rem 0rem;
+    font-size:.9rem;
+}
+
+.empty-msg-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.empty-msg-icon{
+    width:7rem;
+
+}
+
+.empty-msg {
+    margin-top:5%;
+    margin-bottom:0px;
+    font-family: "Circular-Loom";
+    font-size:2rem;
+    color: white;
+}
+
+@media only screen and (max-width: 500px) {
+    .empty-msg {
+        font-size:1.3rem;
+    }
+    .anne-msg, .user-msg {
+        font-family: "Circular-Loom";
+        padding:.2rem 0rem;
+        font-size:.7rem;
+    }
+    .user-msg-container, .anne-msg-container {
+        margin: .2rem 0rem;
+        padding:.6rem;
+        height: auto;
+    }
+}
