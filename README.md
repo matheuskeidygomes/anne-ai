@@ -22,4 +22,6 @@ cd anne-ai
 - run the following command:
 npm run docker
 
+- Go to: http://localhost:3000/
+
 ```
