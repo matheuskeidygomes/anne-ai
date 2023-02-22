@@ -1,0 +1,20 @@
+{
+  "name": "anneai",
+  "version": "1.0.0",
+  "description": "An application created to interact with an AI called Anne. Anne was created using the OpenAI API. For this project, we used this following technologies: Typescript, React.js, Node.js and OpenAI.",
+  "main": "index.js",
+  "scripts": {
+    "docker": "docker-compose up -d --build" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matheuskeidygomes/anne-ai.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matheuskeidygomes/anne-ai/issues"
+  },
+  "homepage": "https://github.com/matheuskeidygomes/anne-ai#readme"
+}
