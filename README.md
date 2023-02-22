@@ -37,6 +37,8 @@ cd anne-ai
 
 # Run the following command:
 npm run docker
+# Or just click/open launcher.bat file (Windows)
+launcher.bat
 
 # Go to: http://localhost:3000/
 ```
