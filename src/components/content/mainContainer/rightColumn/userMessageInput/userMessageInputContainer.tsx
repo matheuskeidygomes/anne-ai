@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { callAnne } from '../../../../../services/api/requests';
+import callAnne from '../../../../../services/openAI';
 import { addMessage } from '../../../../../redux/reducers/MessageListReducer';
 import { setLoading } from '../../../../../redux/reducers/ChatLoadingReducer';
 import './userMessageInputContainer.css';
