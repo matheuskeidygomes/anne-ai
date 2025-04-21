@@ -38,7 +38,6 @@
     color: rgb(85, 85, 85);
     margin: 0rem;
     padding: 0rem;
-    font-family: "Circular-Loom";
     font-weight: bold;
 }
 
@@ -51,7 +50,6 @@
 }
 
 .anne-msg, .user-msg {
-    font-family: "Circular-Loom";
     padding:.2rem 0rem;
     font-size:.9rem;
 }
@@ -73,7 +71,6 @@
 .empty-msg {
     margin-top:5%;
     margin-bottom:0px;
-    font-family: "Circular-Loom";
     font-size:2rem;
     color: white;
 }
@@ -83,7 +80,6 @@
         font-size:1.3rem;
     }
     .anne-msg, .user-msg {
-        font-family: "Circular-Loom";
         padding:.2rem 0rem;
         font-size:.7rem;
     }
